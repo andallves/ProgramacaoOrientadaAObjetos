@@ -1,0 +1,6 @@
+C:\Users\andal\OneDrive - IFCE\Ciência da Computação\Programação Orientada a Objetos\ProgramacaoOrientadaAObjetos\PrimeiraAtividade\bin\Debug\PrimeiraAtividade.exe
+C:\Users\andal\OneDrive - IFCE\Ciência da Computação\Programação Orientada a Objetos\ProgramacaoOrientadaAObjetos\PrimeiraAtividade\bin\Debug\PrimeiraAtividade.pdb
+C:\Users\andal\OneDrive - IFCE\Ciência da Computação\Programação Orientada a Objetos\ProgramacaoOrientadaAObjetos\PrimeiraAtividade\obj\Debug\PrimeiraAtividade.csproj.AssemblyReference.cache
+C:\Users\andal\OneDrive - IFCE\Ciência da Computação\Programação Orientada a Objetos\ProgramacaoOrientadaAObjetos\PrimeiraAtividade\obj\Debug\PrimeiraAtividade.csproj.CoreCompileInputs.cache
+C:\Users\andal\OneDrive - IFCE\Ciência da Computação\Programação Orientada a Objetos\ProgramacaoOrientadaAObjetos\PrimeiraAtividade\obj\Debug\PrimeiraAtividade.exe
+C:\Users\andal\OneDrive - IFCE\Ciência da Computação\Programação Orientada a Objetos\ProgramacaoOrientadaAObjetos\PrimeiraAtividade\obj\Debug\PrimeiraAtividade.pdb
