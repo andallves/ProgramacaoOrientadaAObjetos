@@ -4,3 +4,9 @@ C:\Users\andal\OneDrive - IFCE\Ciência da Computação\Programação Orientada 
 C:\Users\andal\OneDrive - IFCE\Ciência da Computação\Programação Orientada a Objetos\ProgramacaoOrientadaAObjetos\SegundaAtividade\obj\Debug\SegundaAtividade.csproj.CoreCompileInputs.cache
 C:\Users\andal\OneDrive - IFCE\Ciência da Computação\Programação Orientada a Objetos\ProgramacaoOrientadaAObjetos\SegundaAtividade\obj\Debug\SegundaAtividade.exe
 C:\Users\andal\OneDrive - IFCE\Ciência da Computação\Programação Orientada a Objetos\ProgramacaoOrientadaAObjetos\SegundaAtividade\obj\Debug\SegundaAtividade.pdb
+C:\Users\andal\OneDrive\Documentos\Visual Studio 2022\poo\ProgramacaoOrientadaAObjetos\SegundaAtividade\bin\Debug\SegundaAtividade.exe
+C:\Users\andal\OneDrive\Documentos\Visual Studio 2022\poo\ProgramacaoOrientadaAObjetos\SegundaAtividade\bin\Debug\SegundaAtividade.pdb
+C:\Users\andal\OneDrive\Documentos\Visual Studio 2022\poo\ProgramacaoOrientadaAObjetos\SegundaAtividade\obj\Debug\SegundaAtividade.csproj.AssemblyReference.cache
+C:\Users\andal\OneDrive\Documentos\Visual Studio 2022\poo\ProgramacaoOrientadaAObjetos\SegundaAtividade\obj\Debug\SegundaAtividade.csproj.CoreCompileInputs.cache
+C:\Users\andal\OneDrive\Documentos\Visual Studio 2022\poo\ProgramacaoOrientadaAObjetos\SegundaAtividade\obj\Debug\SegundaAtividade.exe
+C:\Users\andal\OneDrive\Documentos\Visual Studio 2022\poo\ProgramacaoOrientadaAObjetos\SegundaAtividade\obj\Debug\SegundaAtividade.pdb

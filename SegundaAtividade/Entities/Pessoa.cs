@@ -3,16 +3,27 @@
     public class Pessoa
     {
         public string Nome { get; set; }
-        private string Cpf { get;  set; }
-        public int Idade { get; }
-        private bool Vacinado { get; set; }
+        public int Idade { get; private set; }
+        private string _cpf;
+        private bool _vacinado = false;
+
+        public Pessoa() { }
 
         public Pessoa(string nome, string cpf, int idade)
         {
             Nome = nome;
-            Cpf = cpf;
+            _cpf = cpf;
             Idade = idade;
-            Vacinado = false;
+        }
+
+        public void Vacinar()
+        {
+            _vacinado = true;
+        }
+        
+        public string Cpf
+        {   get { return _cpf; }
+            set { _cpf = value; }
         }
 
         public override string ToString()
@@ -20,19 +31,8 @@
             return "================================\r\n"
                    + "Nome: " + Nome + "\r\n"
                    + "Cpf: " + Cpf + "\r\n"
-                   + "Vacinado: " + Vacinado + "\r\n"
+                   + "Vacinado: " + _vacinado + "\r\n"
                    + "================================";
         }
-
-        public void Vacinar()
-        {
-            Vacinado = true;
-        }
-        
-        public void AlterarCpf(string novoCpf)
-        {
-            Cpf = novoCpf;
-        }
-        
     }
 }
