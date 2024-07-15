@@ -3,7 +3,7 @@
     public class Pessoa
     {
         public string Nome { get; set; }
-        public int Idade { get; private set; }
+        public int Idade { get; set; }
         private string _cpf;
         private bool _vacinado = false;
 

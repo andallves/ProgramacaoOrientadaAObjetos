@@ -1,10 +1,10 @@
-﻿using System;
+﻿using TerceiraAtividade.Entities;
 
-namespace SegundaAtividade
+namespace TerceiraAtividade
 {
     class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
             try
             {
@@ -35,7 +35,7 @@ namespace SegundaAtividade
                     string cpfCidadao = Console.ReadLine();
                     Console.Write("Idade: ");
                     int idadeCidadao = int.Parse(Console.ReadLine());
-                    Pessoa cidadao = new Pessoa(nomeCidadao, cpfCidadao, idadeCidadao);
+                    Cidadao cidadao = new Cidadao(nomeCidadao, cpfCidadao, idadeCidadao);
                     funcionario.Cadastrar(cidadao);
 
                     Console.Write("Vaciná-lo? [s/n]: ");
@@ -68,7 +68,7 @@ namespace SegundaAtividade
                         string cpfAtual = Console.ReadLine();
                         Console.Write("Informe o novo CPF: ");
                         string novoCpf = Console.ReadLine();
-                        Pessoa cidadao = funcionario.PegarCidadao(cpfAtual);
+                        Cidadao cidadao = funcionario.PegarCidadao(cpfAtual);
                         adm.AlterarCpf(cidadao, novoCpf);
                         Console.WriteLine("CPF Atualizado!");
                         break;
@@ -84,8 +84,12 @@ namespace SegundaAtividade
                         Console.WriteLine("Programa encerrado!");
                         break;
                 }
-            } 
-            catch (Exception ex) { Console.WriteLine(ex.Message); }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
             Console.ReadLine();
         }
     }
