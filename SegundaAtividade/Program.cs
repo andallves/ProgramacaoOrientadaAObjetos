@@ -73,8 +73,6 @@ namespace SegundaAtividade
                         Console.WriteLine("CPF Atualizado!");
                         break;
                     case 2:
-                        Console.Write("Informe a matricula atual: ");
-                        string matriculaAtual = Console.ReadLine();
                         Console.Write("Informe a nova matricula: ");
                         string novamatricula = Console.ReadLine();
                         adm.AlterarMatricula(funcionario, novamatricula);

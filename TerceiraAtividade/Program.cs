@@ -2,9 +2,9 @@
 
 namespace TerceiraAtividade
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             try
             {
@@ -73,8 +73,6 @@ namespace TerceiraAtividade
                         Console.WriteLine("CPF Atualizado!");
                         break;
                     case 2:
-                        Console.Write("Informe a matricula atual: ");
-                        string matriculaAtual = Console.ReadLine();
                         Console.Write("Informe a nova matricula: ");
                         string novamatricula = Console.ReadLine();
                         adm.AlterarMatricula(funcionario, novamatricula);

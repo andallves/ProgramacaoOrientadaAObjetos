@@ -4,7 +4,7 @@ namespace SegundaAtividade
 {
     public class Admin
     {
-        private string _senha;
+        private readonly string _senha;
 
         public Admin()
         {
